@@ -21,7 +21,7 @@ import java.util.*;
 @RestController
 public class NumberController {
 
-    private static final int TIMEOUT_MS = 1000;
+    private static final int TIMEOUT_MS = 500;
 
     private static final ObjectMapper objectMapper = new ObjectMapper();
 
